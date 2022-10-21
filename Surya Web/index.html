@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html lan="en">
+
+<head>
+    <title>Surya-Web Tutorial</title>
+    <!-- favicon-->
+    <link rel="Shortcut icon" href="images/favicon/favicon-16x16.png"> <!-- Comment-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap_css/bootstrap.css">
+    <!-- fontawesome icons-->
+    <link rel="stylesheet" href="css/fontawesome/all.min.css">
+    <script src="js/fontawesome/all.min.js"></script>
+    <!-- custom css-->
+    <link rel="stylesheet" href="css/mystyle.css">
+    <!-- JQuery-->
+    <script src="js/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+    <!-- preloader-->
+    <div id="preloader">
+        <div id="preloader_status">&nbsp;</div>
+    </div>
+    <!-- Home-->
+    <section id="home">
+        <!-- bacground video-->
+        <video id="home-bg-video" poster="images/home_poster/poster.jpg" autoplay muted loop>
+            <source src="videos/home-video.mp4" type="video/mp4">
+            <source src="videos/home-video.ogv" type="video/ogv">
+            <source src="videos/home-video.webm" type="video/webm">
+        </video>
+        <!-- Over lay-->
+        <div id="home-overlay"></div>
+        <!-- Home content-->
+        <div id="home-content">
+
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+                    <h1 id="home-heading-1">Surya Srav</h1>
+                    <br>
+                    <h1 id="home-heading-2"><span>Creative</span> web Developers</h1>
+                </div>
+                <div id="home-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore est odit adipisci eius velit in perspiciatis quae. Ipsum, doloremque, enim. Fugiat voluptatibus recusandae reprehenderit quaerat eos minus cumque consequuntur, enim!
+                    </p>
+                </div>
+                <div id="home-btn">
+                    <a href="#about" class="btn btn- general btn-home" role="button" title="Start Now!">Start Now</a>
+                </div>
+            </div>
+        </div>
+        <!-- arrow down-->
+        <a href="#about" id="arrow-down">
+            <i class="fas fa-angle-down "></i>
+        </a>
+    </section>
+    <!-- Home Ends-->
+    <!-- About-->
+    <section id="about">
+        <div id="about-01">
+            <div class="content-box-lg">
+                <div class="container">
+                    <div class="row">
+                        <!-- about left side-->
+                        <div class="col-md-6">
+                            <div id="about-left">
+                                <div class="vertical-heading">
+                                    <h5>Who We Are</h5>
+                                    <h2><strong>About</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- about right side-->
+                        <div class="col-md-6">
+                            <div id="about-right">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate velit omnis dicta magnam quos id, quae voluptates aliquam earum facere sit, odit harum. Enim quo dicta corporis officia eligendi, obcaecati.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- About bottom-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="about-bottom">
+                                <img src="images/about/ss-creative%20(2).jpg" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About-01 end-->
+        <!-- About-02-->
+        <div id="about-02">
+            <div class="content-box-md">
+                <div class="conntainer">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="about-items">
+                                <span>
+                                    <i class="fas fa-rocket"></i>
+                                </span>
+                                <h3>Mission</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iusto eos, reprehenderit molestias tenetur harum voluptate dolores voluptatem ad quos molestiae totam! Perferendis quos officia ducimus enim corporis. Sed, error!</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-items">
+                                <span>
+                                    <i class="fas fa-eye"></i>
+                                </span>
+                                <h3>Vission</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iusto eos, reprehenderit molestias tenetur harum voluptate dolores voluptatem ad quos molestiae totam! Perferendis quos officia ducimus enim corporis. Sed, error!</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-items">
+                                <span>
+                                    <i class="far fa-dot-circle"></i>
+                                </span>
+                                <h3>Passion</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iusto eos, reprehenderit molestias tenetur harum voluptate dolores voluptatem ad quos molestiae totam! Perferendis quos officia ducimus enim corporis. Sed, error!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slide show-->
+    <section id="slide-show">
+        <div id="slide-home1">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="images/slide-show/money-2696234_1920.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Plan for Developing Website</h5>
+                            <p>Creative Web Development</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/slide-show/digital-marketing-1725340_1920.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Develop Wire-Frame</h5>
+                            <p>Work+Hard=Success</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide-show/education-1651259_1920.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Develop code</h5>
+                            <p>Created by Surya </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Slide Show End-->
+    <!-- Team-->
+    <section id="team">
+        <div class="content-box-lg">
+            <div class="container">
+               
+            </div>
+        </div>
+    </section>
+    <!bootstrap js-->
+        <script src="js/bootstrap_js/bootstrap.js"></script>
+        <!-- custom js-->
+        <script src="js/myscript.js"></script>
+
+</body>
+
+</html>
